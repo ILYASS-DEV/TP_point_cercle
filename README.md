@@ -1,0 +1,1 @@
+# classe_avec_construteur_dinitialisation
