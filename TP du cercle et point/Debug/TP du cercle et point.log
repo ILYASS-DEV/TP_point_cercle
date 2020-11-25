@@ -1,0 +1,4 @@
+﻿  TP du cercle et point.cpp
+c:\users\admin\desktop\tp du cercle et point\tp du cercle et point\cercle.h(47): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\admin\desktop\tp du cercle et point\tp du cercle et point\cercle.h(51): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  TP du cercle et point.vcxproj -> C:\Users\admin\Desktop\TP du cercle et point\Debug\TP du cercle et point.exe
