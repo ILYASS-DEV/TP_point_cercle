@@ -21,11 +21,13 @@ public:
 	}
 
 	void afficher() {
+		cout << endl << "#####################" << endl;
+
 		cout << "Affichage du cercle : " << endl;
 		cout << "Le rayon est: " << r << endl;
 		cout << "Le centre est : ";
 		centre.afficher();
-		cout << endl << "-----" << endl;
+		cout << endl << "#####################" << endl;
 	}
 
 	float getRayon() {
@@ -39,8 +41,8 @@ public:
 	point getCentre() {
 		return centre;
 	}
-	void translation(float a) {
-		centre.translation(a);
+	void translation(float dxy) {
+		centre.translation(dxy);
 	}
 
 	float surface() {
