@@ -11,15 +11,19 @@ int main()
 	point p(10, 10);
 	cercle c(1, p);
 	c.afficher();      
+	cout << "############################ : " << endl;
 
 	cout << "Perimetre: " << c.perimetre() << endl
 		<< "Surface: " << c.surface() << endl;
+	cout << "############################ : " << endl;
 
 	c.setRayon(c.getRayon() * 2);
-
+	cout << "############################ : " << endl;
 	cout << "Apres doublement du rayon : " << endl
 		<< "Perimetre: " << c.perimetre() << endl
 		<< "Surface: " << c.surface() << endl;
+	cout << "############################ : " << endl;
+
 
 	c.translation(-10);
 
